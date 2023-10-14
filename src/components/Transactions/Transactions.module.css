@@ -1,0 +1,46 @@
+.transactions{
+    padding-bottom: 50px;
+}
+
+.transactions__head{
+    background-color: #64CCC5;
+    font-family: 'Gabarito', sans-serif;
+    color: white;
+    font-size: 20px;
+    height: 50px;
+    border: 1px solid white;
+}
+
+.transactions__table {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    border: 1px solid #64CCC5;
+}
+
+.transactions__head th{
+    border: 1px solid white;
+}
+
+.transactions__body{
+    text-align: center;
+    
+}
+
+.transactions__body td{
+    height: 30px;
+    color: #64CCC5;
+}
+
+.transactions__item:nth-of-type(2n){
+
+    background-color: #DAFFFB;
+}
+
+.transactions__type{
+    border-right: 1px solid #64CCC5;
+}
+
+.transactions__amount{
+    border-right: 1px solid #64CCC5;
+}
